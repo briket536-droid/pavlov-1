@@ -90,7 +90,23 @@ section {
 }
 @media (min-width: 1024px) {
   #hero {
-    scroll-margin-top: -25px;
+    scroll-margin-top: 125px;
+  }
+}
+#consent {
+  scroll-margin-top: 0;
+}
+@media (min-width: 1024px) {
+  #consent {
+    scroll-margin-top: -50px;
+  }
+}
+#disclaimer {
+  scroll-margin-top: 0;
+}
+@media (min-width: 1024px) {
+  #disclaimer {
+    scroll-margin-top: -50px;
   }
 }
 #calc {
@@ -98,7 +114,7 @@ section {
 }
 @media (min-width: 1024px) {
   #calc {
-    scroll-margin-top: -15px;
+    scroll-margin-top: 75px;
   }
 }
 #expertise {
@@ -106,15 +122,15 @@ section {
 }
 @media (min-width: 1024px) {
   #expertise {
-    scroll-margin-top: 100px;
+    scroll-margin-top: 180px;
   }
 }
 #insurance {
   scroll-margin-top: 0;
 }
 @media (min-width: 1024px) {
-    #insurance{
-    scroll-margin-top: 100px;
+  #insurance {
+    scroll-margin-top: 200px;
   }
 }
 #experts {
@@ -122,7 +138,7 @@ section {
 }
 @media (min-width: 1024px) {
   #experts {
-    scroll-margin-top: 52px;
+    scroll-margin-top: 82px;
   }
 }
 #audit {
@@ -130,7 +146,7 @@ section {
 }
 @media (min-width: 1024px) {
   #audit  {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 100px;
   }
 }
 /* ===== CALCULATOR ===== */
