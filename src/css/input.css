@@ -79,6 +79,11 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+/* Пока JS не загрузился — показываем reveal-элементы (фикс FOUC/пустой страницы) */
+.no-js .reveal {
+  opacity: 1;
+  transform: none;
+}
 
 /* ===== SECTIONS ===== */
 section {

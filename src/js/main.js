@@ -1,4 +1,6 @@
-import '../css/input.css';
+// Стили подключены через <link> в <head> HTML (фикс FOUC при перезагрузке).
+// Снимаем класс no-js как можно раньше, чтобы включить reveal-анимацию.
+document.documentElement.classList.remove('no-js');
 
 document.addEventListener('DOMContentLoaded', () => {
     // Reveal onto scroll animation
